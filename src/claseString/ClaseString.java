@@ -55,6 +55,26 @@ public class ClaseString {
          
          System.out.println("Igualdad Java y java: " + "Java".equals("java"));
          System.out.println("Igualdad Java y java: " + "Java".equalsIgnoreCase("java"));
+         
+         //Comparacion de cadenas (diccionario) Método compareTo()
+         //Devuelve cero si las cadenas son iguales
+         //un negativo si s1 está antes de s2 en el diccionario (menor)
+         // o un positivo si s1 está despues de s2 (mayor)
+         
+         int compareTo = s1.compareTo(s1);
+         System.out.println("Comparación de s1 y s1: " + compareTo);
+         
+         compareTo = s1.compareTo("aes");
+         System.out.println("Comparación de s1 y aes: " + compareTo);
+         
+         compareTo= "aes".compareTo(s1);
+         System.out.println("Comparación de aes y s1: " + compareTo);
         
+         
+         //Conversión mayúsculas y minusculas
+         
+         String mayuscula = s2.toUpperCase();
+         System.out.println("s2 en mayus: " + mayuscula);
+         System.out.println("String mayusculas en minusculas: " + mayuscula.toLowerCase());
     }
 }

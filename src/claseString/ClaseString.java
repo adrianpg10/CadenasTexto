@@ -41,5 +41,20 @@ public class ClaseString {
         String nuevo2 = s1.concat(s2);
         System.out.println("Nuevo: " + nuevo);
         System.out.println("Nuevo2:" + nuevo2);
+        
+        //Devuelve el indice dentro de la cadena 
+        // de la primera aparición de la cedena a buscar
+        
+        int indice= nuevo.indexOf("alboran");
+        System.out.println("Indice:" + indice);
+        
+        indice = nuevo.indexOf("ran", 10);
+         System.out.println("Indice:" + indice);
+         
+         //Métodos equals y equalsIgnoreCase
+         
+         System.out.println("Igualdad Java y java: " + "Java".equals("java"));
+         System.out.println("Igualdad Java y java: " + "Java".equalsIgnoreCase("java"));
+        
     }
 }

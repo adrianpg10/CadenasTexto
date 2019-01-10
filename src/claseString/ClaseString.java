@@ -86,6 +86,22 @@ public class ClaseString {
         
         
         //Probar metodos endsWith, startsWith, isEmpty
+            String Str = new String("This is really not immutable!!");
+        boolean retVal;
+
+        retVal = Str.endsWith("immutable!!");
+        System.out.println("Returned Value = " + retVal);
+        
+      
+
+      System.out.print("Return Value :" );
+      System.out.println(Str.startsWith("Welcome") );
+      
+      
+        
+        
+        
+        
         
         //Obtener un array de char de la cadena 
         //Declaracion de una variable array de tipo char 
